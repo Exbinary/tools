@@ -21,7 +21,7 @@ Request = f"GET / HTTP/1.1\r\nHOST: {host_header}\r\n\r\n"   #Create the request
 
 client.send(Request.encode('utf-8'))      #Send the request (encoded)
 
-response = client.recv(lenghtOUT)        #Receive the response (up to 4096 bytes)
+response = client.recv(lenghtOUT)        #Receive the response (up to choosen max bytes)
 
 print(response.decode())
 
