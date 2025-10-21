@@ -4,7 +4,7 @@ import sys
 
 def loop():
     for word in sys.stdin:
-        response = requests.get(url=f"http://10.10.11.161/api")
+        response = requests.get(url=f"0.0.0.0")
         if response.status_code == 404:
             loop()
         else:
