@@ -15,6 +15,9 @@ Designed for pentesters, students, and hobbyists who want a simple but curated a
    |--- /web   -   (Web tools)
 
 
+   |--- /versatiles   -   (Other useful tools)
+
+
 _________________________________________________________
 [+] Clear English and Spanish README per tool with usage.
 
